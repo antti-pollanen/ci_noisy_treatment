@@ -1,0 +1,38 @@
+{
+    "git_commit_hash": "f5d02e1c0b8d9ee84ee18fb1b57cd0b5706d7866",
+    "params": {
+        "adam_beta_1": 0.97,
+        "adam_beta_2": 0.997,
+        "batch_size": 64,
+        "case_id": 1234,
+        "decoder_hidden_sizes": [
+            30,
+            30,
+            30,
+            30,
+            30
+        ],
+        "learning_rate": 0.001,
+        "lr_reducer_factor": 0.1,
+        "lr_reducer_patience": 50,
+        "max_epochs": 5000,
+        "max_training_time_s": 600000,
+        "n_test": 0,
+        "n_train": 2990,
+        "n_validate": 0,
+        "num_q_annealing_epochs": 1,
+        "outcome": "lwage",
+        "patience_in_epochs": 100,
+        "q_initial_weight": 1.0,
+        "uses_t_instead_of_w": true,
+        "weight_decay": 0.01
+    },
+    "time_data_generated_s": 0.018140380969271064,
+    "time_model_created_s": 0.01416657492518425,
+    "time_model_trained_s": 348.85831097490154,
+    "train_loss": 0.6081457138061523,
+    "train_y_sd_estimate": 0.7799674272537231,
+    "validate_loss": 0.6081457138061523,
+    "validate_y_sd_estimate": 0.7799674272537231,
+    "was_run_interrupted_due_to_time": false
+}
