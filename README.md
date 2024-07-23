@@ -1,1 +1,1 @@
-Code to be added soon.
+This is the companion repository for the paper "Identifiable causal inference with noisy treatment and no side information" by Antti Pöllänen and Pekka Marttinen. A preprint is available at [arXiv:2306.10614](https://arxiv.org/abs/2306.10614).
