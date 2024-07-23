@@ -1,0 +1,21 @@
+name: ci_noisy_treatment
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python>=3.10.8
+  - pytorch
+  - numpy
+  - pytest
+  - pytest-forked
+  - pytest-xdist
+  - pandas
+  - matplotlib
+  - seaborn=0.12.2
+  - scikit-learn
+  - gitpython
+  - tabulate
+  - conda-build
+  - ipykernel
+  - wandb
+  - hydra-core
